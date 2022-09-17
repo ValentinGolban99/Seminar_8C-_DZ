@@ -35,7 +35,7 @@ void Zadacha56()
     PrintArray(array);
     int minsum = Int32.MaxValue;
     int indexLine = 0;
-
+    
     for (int i = 0; i < array.GetLength(0); i++)
     {
         int sum = 0;
